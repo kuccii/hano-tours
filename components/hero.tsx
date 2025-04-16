@@ -9,10 +9,10 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         {/* Main gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/10 to-background z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/20 z-10" />
         
         {/* Subtle vignette effect */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.4)_100%)] z-20" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.6)_100%)] z-20" />
         
         {/* Texture overlay */}
         <div className="absolute inset-0 dots-pattern opacity-20 mix-blend-soft-light z-30" />
@@ -39,7 +39,7 @@ export default function Hero() {
             animationType="fadeInUp"
             className="mb-6"
           >
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 font-heading drop-shadow-lg">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 font-heading drop-shadow-[0_4px_4px_rgba(0,0,0,0.4)] [text-shadow:_2px_2px_10px_rgb(0_0_0_/_40%)]">
               Discover Rwanda&apos;s Beauty
             </h1>
           </AnimatedElement>
@@ -49,7 +49,7 @@ export default function Hero() {
             delay={0.2}
             className="mb-8"
           >
-            <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto drop-shadow">
+            <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)] [text-shadow:_1px_1px_8px_rgb(0_0_0_/_40%)]">
               Experience the heart of Africa with our premium transportation and tour services.
               Your journey through the land of a thousand hills starts here.
             </p>
