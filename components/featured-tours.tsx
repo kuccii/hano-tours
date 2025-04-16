@@ -9,7 +9,7 @@ import { AnimatedElement } from "@/components/AnimatedElement"
 const tours = [
   {
     title: "Volcanoes National Park",
-    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&h=400&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Sabyinyo_volcanoe_view_from_Kinigi_sector%2C_Musanze_district%2C_Rwanda.jpg/1200px-Sabyinyo_volcanoe_view_from_Kinigi_sector%2C_Musanze_district%2C_Rwanda.jpg?20200620104347",
     duration: "Full Day",
     location: "Northern Province",
     groupSize: "1-8 people",
@@ -19,7 +19,7 @@ const tours = [
   },
   {
     title: "Lake Kivu Experience",
-    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&h=400&fit=crop",
+    image: "https://www.go2africa.com/wp-content/uploads/2022/01/oo_nyungwe_house_landscape_lake_kivu_day_01_28_9_2017_LR.jpg",
     duration: "2 Days",
     location: "Western Province",
     groupSize: "1-6 people",
@@ -29,7 +29,7 @@ const tours = [
   },
   {
     title: "Kigali City Tour",
-    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&h=400&fit=crop",
+    image: "https://steptodown.com/istock-downloader/images/steptodown.com142177.jpg",
     duration: "Half Day",
     location: "Kigali",
     groupSize: "1-10 people",
