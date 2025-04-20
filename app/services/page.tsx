@@ -3,7 +3,8 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Car, Map, Heart, Plane, Briefcase } from "lucide-react"
+import { Car, Map, Heart, Plane, Briefcase, Check } from "lucide-react"
+import Image from "next/image"
 
 const services = [
   {
@@ -105,24 +106,47 @@ export default function ServicesPage() {
 
           {services.map((service) => (
             <TabsContent key={service.id} value={service.id}>
-              <div className="grid gap-8 md:grid-cols-2">
-                <div>
-                  <h2 className="text-3xl font-bold text-primary mb-4">{service.title}</h2>
-                  <p className="text-lg text-muted-foreground mb-6">{service.description}</p>
+              <div className="grid grid-cols-1 gap-8">
+                <div className="flex flex-col lg:flex-row gap-8 bg-card rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
+                  {/* Content */}
+                  <div className="flex-1 space-y-6">
+                    <div className="flex items-center gap-4">
+                      {service.icon}
+                      <h2 className="text-3xl font-bold text-primary">{service.title}</h2>
+                    </div>
+                    
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      {service.description}
+                    </p>
 
-                  <h3 className="text-xl font-bold text-primary mb-4">Features & Benefits</h3>
-                  <ul className="grid gap-3 mb-8">
-                    {service.features.map((feature, index) => (
-                      <li key={index} className="flex items-center gap-3 text-muted-foreground">
-                        <div className="h-2 w-2 rounded-full bg-accent" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {service.features.map((feature, index) => (
+                        <div key={index} className="flex items-center gap-3 p-3 bg-white/5 rounded-lg">
+                          <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
+                          <span className="text-muted-foreground">{feature}</span>
+                        </div>
+                      ))}
+                    </div>
 
-                  <Button size="lg" className="bg-accent text-primary hover:bg-accent/90">
-                    Request a Quote
-                  </Button>
+                    <div className="flex flex-wrap gap-4">
+                      <Button className="bg-primary hover:bg-primary/90">
+                        Check it Out
+                      </Button>
+                      <Button variant="outline">
+                        Learn More
+                      </Button>
+                    </div>
+                  </div>
+
+                  {/* Image */}
+                  <div className="lg:w-[400px] h-[300px] lg:h-auto relative rounded-xl overflow-hidden">
+                    <Image
+                      src={`/images/services/${service.id}.jpg`}
+                      alt={service.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
 
                 <div className="space-y-6">

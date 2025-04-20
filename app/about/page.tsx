@@ -1,7 +1,12 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { CheckCircle } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 export default function AboutPage() {
+  const router = useRouter()
+
   return (
     <div className="pt-24 pb-20">
       <div className="container mx-auto px-4">
@@ -141,7 +146,12 @@ export default function AboutPage() {
           </div>
 
           <div className="text-center mt-12">
-            <Button className="bg-accent hover:bg-accent/90 text-primary font-medium">Book Your Experience</Button>
+            <Button 
+              className="bg-accent hover:bg-accent/90 text-primary font-medium"
+              onClick={() => router.push('/contact')}
+            >
+              Book Your Experience
+            </Button>
           </div>
         </div>
       </div>

@@ -1,9 +1,8 @@
 import Hero from "@/components/hero"
 import ServiceSection from "@/components/service-section"
-import HowItWorks from "@/components/how-it-works"
-import TestimonialSection from "@/components/testimonial-section"
-import BookingPreview from "@/components/booking-preview"
+import { HowItWorks } from "@/components/how-it-works"
 import FeaturedTours from "@/components/featured-tours"
+import TestimonialSection from "@/components/testimonial-section"
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
       <HowItWorks />
       <FeaturedTours />
       <TestimonialSection />
-      <BookingPreview />
     </div>
   )
 }

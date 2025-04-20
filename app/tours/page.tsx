@@ -191,7 +191,7 @@ export default function ToursPage() {
                       variant="accent"
                       className="group/btn hover:translate-x-1 transition-transform"
                     >
-                      Request Quote
+                      Check it Out
                       <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                     </Button>
               </CardFooter>

@@ -22,14 +22,8 @@ export default function Hero() {
     <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Parallax */}
       <div className="absolute inset-0 z-0">
-        {/* Main gradient overlay - reduced opacity */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-transparent z-10" />
-        
-        {/* Subtle vignette effect - reduced opacity */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.2)_100%)] z-20" />
-        
-        {/* Texture overlay - reduced opacity */}
-        <div className="absolute inset-0 dots-pattern opacity-10 mix-blend-soft-light z-30" />
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/40 z-10" />
         
         {/* Parallax Image with Fade */}
         <motion.div
@@ -39,7 +33,7 @@ export default function Hero() {
             opacity
           }}
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.8 }}
+          animate={{ opacity: 0.9 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
           <Image
@@ -52,20 +46,20 @@ export default function Hero() {
           />
         </motion.div>
 
-        {/* Background Color Fade - more transparent */}
+        {/* Background Color Fade */}
         <motion.div
-          className="absolute inset-0 bg-background/50"
+          className="absolute inset-0 bg-black/20 dark:bg-black/40"
           style={{
-            opacity: useTransform(scrollYProgress, [0, 0.5], [0, 0.8])
+            opacity: useTransform(scrollYProgress, [0, 0.5], [0.6, 0.8])
           }}
         />
       </div>
 
       {/* Decorative Elements with adjusted opacity */}
       <div className="absolute inset-0 z-10">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/15 rounded-full blur-3xl animate-float mix-blend-soft-light" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/15 rounded-full blur-3xl animate-float-delayed mix-blend-soft-light" />
-        <div className="absolute top-3/4 right-1/3 w-72 h-72 bg-primary/10 rounded-full blur-2xl animate-float mix-blend-soft-light" />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float mix-blend-multiply dark:mix-blend-soft-light" />
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float-delayed mix-blend-multiply dark:mix-blend-soft-light" />
+        <div className="absolute top-3/4 right-1/3 w-72 h-72 bg-primary/5 rounded-full blur-2xl animate-float mix-blend-multiply dark:mix-blend-soft-light" />
       </div>
 
       {/* Content */}
@@ -100,7 +94,7 @@ export default function Hero() {
               size="lg"
               variant="accent"
               className="w-full sm:w-auto text-lg font-semibold px-8 py-6 hover:scale-105 transition-transform backdrop-blur-sm bg-accent/90 text-primary"
-              onClick={() => router.push('/tours')}
+              onClick={() => router.push('/contact')}
             >
               Book Your Tour
             </Button>
@@ -120,7 +114,7 @@ export default function Hero() {
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
         <AnimatedElement animationType="fadeInUp" delay={0.8}>
           <div className="animate-bounce">
-            <div className="w-1 h-16 rounded-full bg-gradient-to-b from-white/80 to-transparent" />
+            <div className="w-1 h-16 rounded-full bg-white/30" />
           </div>
         </AnimatedElement>
       </div>
@@ -137,16 +131,6 @@ export default function Hero() {
           <path
             d="M0 96L48 85.3C96 75 192 53 288 42.7C384 32 480 32 576 42.7C672 53 768 75 864 80C960 85 1056 75 1152 69.3C1248 64 1344 64 1392 64H1440V140H0V96Z"
             className="fill-background"
-          />
-          {/* Overlay wave with transparency */}
-          <path
-            d="M0 96L48 101.3C96 107 192 117 288 112C384 107 480 85 576 80C672 75 768 85 864 90.7C960 96 1056 96 1152 90.7C1248 85 1344 75 1392 69.3L1440 64V140H0V96Z"
-            className="fill-background/30"
-          />
-          {/* Subtle accent wave */}
-          <path
-            d="M0 112L48 117.3C96 123 192 133 288 128C384 123 480 101 576 96C672 91 768 101 864 106.7C960 112 1056 112 1152 106.7C1248 101 1344 91 1392 85.3L1440 80V140H0V112Z"
-            className="fill-accent/10"
           />
         </svg>
       </div>
