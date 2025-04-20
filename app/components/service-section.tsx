@@ -1,34 +1,43 @@
 "use client"
 
-import { Map, Car, PenLine, ArrowRight } from "lucide-react"
+import { Car, Map, Heart, Plane, Briefcase, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { AnimatedElement } from "@/components/AnimatedElement"
-import { useRouter } from "next/navigation"
 
 const services = [
   {
-    icon: <Map className="h-8 w-8 text-primary" />,
-    title: "Tour Packages",
-    description: "Explore Rwanda's breathtaking landscapes and wildlife with our curated tour packages.",
-    link: "/tours"
-  },
-  {
     icon: <Car className="h-8 w-8 text-primary" />,
-    title: "Transportation",
-    description: "Reliable and comfortable transportation services for all your travel needs.",
-    link: "/transportation"
+    title: "Car Rentals",
+    description: "Premium vehicles for daily, weekly, or monthly rentals with professional drivers.",
+    link: "/services/car-rentals",
   },
   {
-    icon: <PenLine className="h-8 w-8 text-primary" />,
-    title: "Custom Tours",
-    description: "Create your perfect itinerary with our customizable tour options.",
-    link: "/custom-tours"
-  }
+    icon: <Map className="h-8 w-8 text-primary" />,
+    title: "Guided Country Tours",
+    description: "Explore Rwanda's natural beauty and cultural heritage with expert local guides.",
+    link: "/services/tours",
+  },
+  {
+    icon: <Heart className="h-8 w-8 text-primary" />,
+    title: "Luxury Wedding Cars",
+    description: "Make your special day memorable with our elegant fleet of luxury vehicles.",
+    link: "/services/wedding-cars",
+  },
+  {
+    icon: <Plane className="h-8 w-8 text-primary" />,
+    title: "Airport Transfers",
+    description: "Reliable and comfortable transportation to and from Kigali International Airport.",
+    link: "/services/airport-transfers",
+  },
+  {
+    icon: <Briefcase className="h-8 w-8 text-primary" />,
+    title: "Corporate Transport",
+    description: "Professional transportation solutions for business events and corporate clients.",
+    link: "/services/corporate",
+  },
 ]
 
 export default function ServiceSection() {
-  const router = useRouter()
-
   return (
     <section className="relative py-24 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-accent/5 to-background/50">
@@ -72,7 +81,8 @@ export default function ServiceSection() {
         <AnimatedElement animationType="fadeInUp" className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">Our Services</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Discover the range of services we offer to make your Rwandan adventure unforgettable.
+            Discover our range of premium transportation and tour services designed to make your Rwandan experience
+            comfortable, memorable, and hassle-free.
           </p>
         </AnimatedElement>
 
@@ -84,10 +94,7 @@ export default function ServiceSection() {
               delay={index * 0.1}
               className="group"
             >
-              <div 
-                onClick={() => router.push(service.link)}
-                className="relative h-full p-8 rounded-2xl backdrop-blur-[2px] bg-white/60 hover:-translate-y-2 transition-all duration-300 hover:bg-white/70 cursor-pointer"
-              >
+              <div className="relative h-full p-8 rounded-2xl backdrop-blur-[2px] bg-white/60 hover:-translate-y-2 transition-all duration-300 hover:bg-white/70">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/60 via-white/40 to-white/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute inset-0 rounded-2xl bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-primary/20 via-accent/20 to-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -105,10 +112,6 @@ export default function ServiceSection() {
                   <Button 
                     variant="ghost" 
                     className="w-fit p-0 text-accent hover:text-accent/90 hover:bg-transparent group-hover:translate-x-2 transition-all duration-300 font-medium"
-                    onClick={(e) => {
-                      e.stopPropagation()
-                      router.push(service.link)
-                    }}
                   >
                     Learn More 
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:animate-bounce-x" />
@@ -121,4 +124,4 @@ export default function ServiceSection() {
       </div>
     </section>
   )
-}
+} 
