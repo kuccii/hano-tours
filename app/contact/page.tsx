@@ -65,7 +65,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-primary mb-1">Our Location</h3>
-                  <p className="text-gray-600">KG 123 St, Kigali, Rwanda</p>
+                  <p className="text-gray-600">KN4 AVE, PLOT 12 N970, Kigali, Rwanda</p>
                 </div>
               </div>
 
@@ -75,8 +75,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-primary mb-1">Phone Number</h3>
-                  <p className="text-gray-600">+250 788 123 456</p>
-                  <p className="text-gray-600">+250 788 789 012</p>
+                  <p className="text-gray-600">+250 788 460 359</p>
                 </div>
               </div>
 
@@ -86,8 +85,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-primary mb-1">Email Address</h3>
-                  <p className="text-gray-600">info@hanotours.com</p>
-                  <p className="text-gray-600">bookings@hanotours.com</p>
+                  <p className="text-gray-600">info@hanotours.rw</p>
                 </div>
               </div>
 

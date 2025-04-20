@@ -1,0 +1,317 @@
+Total images downloaded: 322
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/home_icon.png
+Original filename: home_icon.png
+Saved as: home_icon_10.png
+Path: scraped_data\images\home_icon_10.png
+Size: 736 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/2018/07/header-logo.png
+Original filename: header-logo.png
+Saved as: header-logo_17.png
+Path: scraped_data\images\header-logo_17.png
+Size: 3534 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1181/Visit-Rwanda_-Lake-Kivu-Drone-of-Islands-700x525.jpg
+Original filename: Visit-Rwanda_-Lake-Kivu-Drone-of-Islands-700x525.jpg
+Saved as: Visit-Rwanda_-Lake-Kivu-Drone-of-Islands-700x525_2.jpg
+Path: scraped_data\images\Visit-Rwanda_-Lake-Kivu-Drone-of-Islands-700x525_2.jpg
+Size: 39331 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1203/Visit-Rwanda_-Kigali-Skyline-to-CBD-700x467.jpg
+Original filename: Visit-Rwanda_-Kigali-Skyline-to-CBD-700x467.jpg
+Saved as: Visit-Rwanda_-Kigali-Skyline-to-CBD-700x467_5.jpg
+Path: scraped_data\images\Visit-Rwanda_-Kigali-Skyline-to-CBD-700x467_5.jpg
+Size: 62438 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1238/Visit-Rwanda-Kings-Palace-Nyanza-Front-1-700x467.jpg
+Original filename: Visit-Rwanda-Kings-Palace-Nyanza-Front-1-700x467.jpg
+Saved as: Visit-Rwanda-Kings-Palace-Nyanza-Front-1-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Kings-Palace-Nyanza-Front-1-700x467_2.jpg
+Size: 98495 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1248/Visit-Rwanda-Huye-Town-700x467.jpg
+Original filename: Visit-Rwanda-Huye-Town-700x467.jpg
+Saved as: Visit-Rwanda-Huye-Town-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Huye-Town-700x467_2.jpg
+Size: 52736 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1265/Visit-Rwanda-Rubavu-Beach-Credit-Jule-Lumma-700x467.jpg
+Original filename: Visit-Rwanda-Rubavu-Beach-Credit-Jule-Lumma-700x467.jpg
+Saved as: Visit-Rwanda-Rubavu-Beach-Credit-Jule-Lumma-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Rubavu-Beach-Credit-Jule-Lumma-700x467_2.jpg
+Size: 87670 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/16387/IMG_0729-700x456.jpg
+Original filename: IMG_0729-700x456.jpg
+Saved as: IMG_0729-700x456_2.jpg
+Path: scraped_data\images\IMG_0729-700x456_2.jpg
+Size: 146433 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1523/Visit-Rwanda-Musanze-Drone-Sunset-700x525.jpg
+Original filename: Visit-Rwanda-Musanze-Drone-Sunset-700x525.jpg
+Saved as: Visit-Rwanda-Musanze-Drone-Sunset-700x525_3.jpg
+Path: scraped_data\images\Visit-Rwanda-Musanze-Drone-Sunset-700x525_3.jpg
+Size: 57063 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1314/Visit-Rwanda-Rusizi-District-700x467.jpg
+Original filename: Visit-Rwanda-Rusizi-District-700x467.jpg
+Saved as: Visit-Rwanda-Rusizi-District-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Rusizi-District-700x467_2.jpg
+Size: 70470 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1297/Visit-Rwanda-Kibeho-Church-Credit-Elena-Hermosa-700x467.jpg
+Original filename: Visit-Rwanda-Kibeho-Church-Credit-Elena-Hermosa-700x467.jpg
+Saved as: Visit-Rwanda-Kibeho-Church-Credit-Elena-Hermosa-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Kibeho-Church-Credit-Elena-Hermosa-700x467_2.jpg
+Size: 91675 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1418/Visit-Rwanda-Akagera-Lion-in-Tree-1-e1533313181412-700x461.jpg
+Original filename: Visit-Rwanda-Akagera-Lion-in-Tree-1-e1533313181412-700x461.jpg
+Saved as: Visit-Rwanda-Akagera-Lion-in-Tree-1-e1533313181412-700x461_3.jpg
+Path: scraped_data\images\Visit-Rwanda-Akagera-Lion-in-Tree-1-e1533313181412-700x461_3.jpg
+Size: 44975 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1336/Visit-Rwanda-NH_OO_Activities_Chimpanzee_Trek_6853_MASTER-700x467.jpg
+Original filename: Visit-Rwanda-NH_OO_Activities_Chimpanzee_Trek_6853_MASTER-700x467.jpg
+Saved as: Visit-Rwanda-NH_OO_Activities_Chimpanzee_Trek_6853_MASTER-700x467_3.jpg
+Path: scraped_data\images\Visit-Rwanda-NH_OO_Activities_Chimpanzee_Trek_6853_MASTER-700x467_3.jpg
+Size: 82839 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1536/Visit-Rwanda_-Volcanoes-National-Park-Silverback-in-Bamboo-1-700x467.jpg
+Original filename: Visit-Rwanda_-Volcanoes-National-Park-Silverback-in-Bamboo-1-700x467.jpg
+Saved as: Visit-Rwanda_-Volcanoes-National-Park-Silverback-in-Bamboo-1-700x467_3.jpg
+Path: scraped_data\images\Visit-Rwanda_-Volcanoes-National-Park-Silverback-in-Bamboo-1-700x467_3.jpg
+Size: 102030 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1981/Visit-Rwanda-NH_OO_Activities_Canopy_Walk_2918_MASTER-700x467.jpg
+Original filename: Visit-Rwanda-NH_OO_Activities_Canopy_Walk_2918_MASTER-700x467.jpg
+Saved as: Visit-Rwanda-NH_OO_Activities_Canopy_Walk_2918_MASTER-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-NH_OO_Activities_Canopy_Walk_2918_MASTER-700x467_2.jpg
+Size: 125907 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1639/Visit-Rwanda-Singing-Fishermen-700x467.jpg
+Original filename: Visit-Rwanda-Singing-Fishermen-700x467.jpg
+Saved as: Visit-Rwanda-Singing-Fishermen-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Singing-Fishermen-700x467_2.jpg
+Size: 37959 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1630/Visit-Rwanda-NH_OO_Lifestyle_Canopy_Walk_0657_MASTER-700x467.jpg
+Original filename: Visit-Rwanda-NH_OO_Lifestyle_Canopy_Walk_0657_MASTER-700x467.jpg
+Saved as: Visit-Rwanda-NH_OO_Lifestyle_Canopy_Walk_0657_MASTER-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-NH_OO_Lifestyle_Canopy_Walk_0657_MASTER-700x467_2.jpg
+Size: 90805 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1545/Visit-Rwanda-Kwita-Izina-Baby-Gorilla-2-700x467.jpg
+Original filename: Visit-Rwanda-Kwita-Izina-Baby-Gorilla-2-700x467.jpg
+Saved as: Visit-Rwanda-Kwita-Izina-Baby-Gorilla-2-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Kwita-Izina-Baby-Gorilla-2-700x467_2.jpg
+Size: 57244 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1465/Visit-Rwanda-Bisate-11-700x467.jpg
+Original filename: Visit-Rwanda-Bisate-11-700x467.jpg
+Saved as: Visit-Rwanda-Bisate-11-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Bisate-11-700x467_2.jpg
+Size: 83658 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1433/Visit-Rwanda-Akagera-Three-Zebra-700x467.jpg
+Original filename: Visit-Rwanda-Akagera-Three-Zebra-700x467.jpg
+Saved as: Visit-Rwanda-Akagera-Three-Zebra-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Akagera-Three-Zebra-700x467_2.jpg
+Size: 81518 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1709/Variable-Sunbrird-Nyungwe-Gisakura-ICS-700x455.jpg
+Original filename: Variable-Sunbrird-Nyungwe-Gisakura-ICS-700x455.jpg
+Saved as: Variable-Sunbrird-Nyungwe-Gisakura-ICS-700x455_2.jpg
+Path: scraped_data\images\Variable-Sunbrird-Nyungwe-Gisakura-ICS-700x455_2.jpg
+Size: 38527 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/181/rwanda-16-700x466.jpg
+Original filename: rwanda-16-700x466.jpg
+Saved as: rwanda-16-700x466_2.jpg
+Path: scraped_data\images\rwanda-16-700x466_2.jpg
+Size: 107687 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1752/Green-coffee-beans-700x467.jpg
+Original filename: Green-coffee-beans-700x467.jpg
+Saved as: Green-coffee-beans-700x467_2.jpg
+Path: scraped_data\images\Green-coffee-beans-700x467_2.jpg
+Size: 46904 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1667/Visit-Rwanda_-Congo-Nile-Trail-bike-700x467.jpg
+Original filename: Visit-Rwanda_-Congo-Nile-Trail-bike-700x467.jpg
+Saved as: Visit-Rwanda_-Congo-Nile-Trail-bike-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda_-Congo-Nile-Trail-bike-700x467_2.jpg
+Size: 51270 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1654/Visit-Rwanda_-Lake-Kivu-Kayak-to-Islands-1-700x394.jpg
+Original filename: Visit-Rwanda_-Lake-Kivu-Kayak-to-Islands-1-700x394.jpg
+Saved as: Visit-Rwanda_-Lake-Kivu-Kayak-to-Islands-1-700x394_2.jpg
+Path: scraped_data\images\Visit-Rwanda_-Lake-Kivu-Kayak-to-Islands-1-700x394_2.jpg
+Size: 25980 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1636/Visit-Rwanda-Canopy-Walkway-Trail-700x467.jpg
+Original filename: Visit-Rwanda-Canopy-Walkway-Trail-700x467.jpg
+Saved as: Visit-Rwanda-Canopy-Walkway-Trail-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Canopy-Walkway-Trail-700x467_2.jpg
+Size: 132963 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1629/Visit-Rwanda-NH_OO_Lifestyle_Canopy_Walk_0019_MASTER-1-700x467.jpg
+Original filename: Visit-Rwanda-NH_OO_Lifestyle_Canopy_Walk_0019_MASTER-1-700x467.jpg
+Saved as: Visit-Rwanda-NH_OO_Lifestyle_Canopy_Walk_0019_MASTER-1-700x467_3.jpg
+Path: scraped_data\images\Visit-Rwanda-NH_OO_Lifestyle_Canopy_Walk_0019_MASTER-1-700x467_3.jpg
+Size: 115256 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1678/Visit-Rwanda-Cricket-For-Hope-700x364.jpg
+Original filename: Visit-Rwanda-Cricket-For-Hope-700x364.jpg
+Saved as: Visit-Rwanda-Cricket-For-Hope-700x364_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Cricket-For-Hope-700x364_2.jpg
+Size: 39402 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1617/Visit-Rwanda-Paramotoring-Huye-700x467.jpg
+Original filename: Visit-Rwanda-Paramotoring-Huye-700x467.jpg
+Saved as: Visit-Rwanda-Paramotoring-Huye-700x467_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Paramotoring-Huye-700x467_2.jpg
+Size: 20280 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1611/Musanze-Caves-700x466.jpg
+Original filename: Musanze-Caves-700x466.jpg
+Saved as: Musanze-Caves-700x466_2.jpg
+Path: scraped_data\images\Musanze-Caves-700x466_2.jpg
+Size: 90297 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1608/Visit-Rwanda-Helicopter-Safari-Charter-700x525.jpg
+Original filename: Visit-Rwanda-Helicopter-Safari-Charter-700x525.jpg
+Saved as: Visit-Rwanda-Helicopter-Safari-Charter-700x525_2.jpg
+Path: scraped_data\images\Visit-Rwanda-Helicopter-Safari-Charter-700x525_2.jpg
+Size: 57387 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/banner.jpg
+Original filename: banner.jpg
+Saved as: banner_2.jpg
+Path: scraped_data\images\banner_2.jpg
+Size: 1265720 bytes
+Alt text: 
+
+Original URL: http://openweathermap.org/img/w/10n.png
+Original filename: 10n.png
+Saved as: 10n_17.png
+Path: scraped_data\images\10n_17.png
+Size: 3801 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/2018/07/header-logo.png
+Original filename: header-logo.png
+Saved as: header-logo_18.png
+Path: scraped_data\images\header-logo_18.png
+Size: 3534 bytes
+Alt text: 
+
+Original URL: http://openweathermap.org/img/w/10n.png
+Original filename: 10n.png
+Saved as: 10n_18.png
+Path: scraped_data\images\10n_18.png
+Size: 3801 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/3616/town2-1920x1129.jpg
+Original filename: town2-1920x1129.jpg
+Saved as: town2-1920x1129.jpg
+Path: scraped_data\images\town2-1920x1129.jpg
+Size: 325321 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/traingle.png
+Original filename: traingle.png
+Saved as: traingle_10.png
+Path: scraped_data\images\traingle_10.png
+Size: 1254 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/top-left-shape.png
+Original filename: top-left-shape.png
+Saved as: top-left-shape_10.png
+Path: scraped_data\images\top-left-shape_10.png
+Size: 3586 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/top-right-shape.png
+Original filename: top-right-shape.png
+Saved as: top-right-shape_10.png
+Path: scraped_data\images\top-right-shape_10.png
+Size: 4273 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/bottom-left-shape.png
+Original filename: bottom-left-shape.png
+Saved as: bottom-left-shape_10.png
+Path: scraped_data\images\bottom-left-shape_10.png
+Size: 3668 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/bottom-right-shape.png
+Original filename: bottom-right-shape.png
+Saved as: bottom-right-shape_10.png
+Path: scraped_data\images\bottom-right-shape_10.png
+Size: 4164 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1265/Visit-Rwanda-Rubavu-Beach-Credit-Jule-Lumma-1650x1100.jpg
+Original filename: Visit-Rwanda-Rubavu-Beach-Credit-Jule-Lumma-1650x1100.jpg
+Saved as: Visit-Rwanda-Rubavu-Beach-Credit-Jule-Lumma-1650x1100_1.jpg
+Path: scraped_data\images\Visit-Rwanda-Rubavu-Beach-Credit-Jule-Lumma-1650x1100_1.jpg
+Size: 357083 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1234/Visit-Rwanda-Kings-Palace-Nyanza-Front-1650x1100.jpg
+Original filename: Visit-Rwanda-Kings-Palace-Nyanza-Front-1650x1100.jpg
+Saved as: Visit-Rwanda-Kings-Palace-Nyanza-Front-1650x1100_1.jpg
+Path: scraped_data\images\Visit-Rwanda-Kings-Palace-Nyanza-Front-1650x1100_1.jpg
+Size: 457208 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1314/Visit-Rwanda-Rusizi-District-1650x1100.jpg
+Original filename: Visit-Rwanda-Rusizi-District-1650x1100.jpg
+Saved as: Visit-Rwanda-Rusizi-District-1650x1100_1.jpg
+Path: scraped_data\images\Visit-Rwanda-Rusizi-District-1650x1100_1.jpg
+Size: 330468 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/2018/07/footer-logo.png
+Original filename: footer-logo.png
+Saved as: footer-logo_11.png
+Path: scraped_data\images\footer-logo_11.png
+Size: 2587 bytes
+Alt text: Rwanda-logo
+

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
@@ -9,6 +10,8 @@ import { cn } from "@/lib/utils"
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const isHomePage = pathname === "/"
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,12 +34,19 @@ const Header = () => {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled ? "bg-white/95 backdrop-blur-sm shadow-md py-2" : "bg-transparent py-4",
+        isScrolled
+          ? "bg-white/95 backdrop-blur-sm shadow-md py-2"
+          : isHomePage
+          ? "bg-transparent py-4"
+          : "bg-white/50 backdrop-blur-sm py-4"
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="flex items-center">
-          <span className="text-2xl font-playfair font-bold text-primary">
+          <span className={cn(
+            "text-2xl font-playfair font-bold",
+            isScrolled || !isHomePage ? "text-primary" : "text-white"
+          )}>
             Hano<span className="text-accent">Tours</span>
           </span>
         </Link>
@@ -49,28 +59,42 @@ const Header = () => {
               href={link.href}
               className={cn(
                 "font-medium transition-colors hover:text-accent",
-                isScrolled ? "text-primary" : "text-white",
+                isScrolled || !isHomePage ? "text-primary" : "text-white"
               )}
             >
               {link.name}
             </Link>
           ))}
-          <Button className="bg-accent hover:bg-accent/90 text-primary font-medium">Book Now</Button>
+          <Button 
+            className="bg-accent hover:bg-accent/90 text-primary font-medium"
+            onClick={() => window.location.href = '/tours'}
+          >
+            Book Now
+          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
-        <button className="md:hidden text-primary" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+        <button 
+          className="md:hidden" 
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        >
           {isMobileMenuOpen ? (
-            <X className={isScrolled ? "text-primary" : "text-white"} size={24} />
+            <X className={cn(
+              "h-6 w-6",
+              isScrolled || !isHomePage ? "text-primary" : "text-white"
+            )} />
           ) : (
-            <Menu className={isScrolled ? "text-primary" : "text-white"} size={24} />
+            <Menu className={cn(
+              "h-6 w-6",
+              isScrolled || !isHomePage ? "text-primary" : "text-white"
+            )} />
           )}
         </button>
       </div>
 
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white shadow-lg">
+        <div className="md:hidden bg-white/95 backdrop-blur-sm shadow-lg">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             {navLinks.map((link) => (
               <Link
@@ -82,7 +106,15 @@ const Header = () => {
                 {link.name}
               </Link>
             ))}
-            <Button className="bg-accent hover:bg-accent/90 text-primary font-medium w-full">Book Now</Button>
+            <Button 
+              className="bg-accent hover:bg-accent/90 text-primary font-medium w-full"
+              onClick={() => {
+                window.location.href = '/tours';
+                setIsMobileMenuOpen(false);
+              }}
+            >
+              Book Now
+            </Button>
           </div>
         </div>
       )}

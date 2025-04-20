@@ -1,0 +1,72 @@
+Total images downloaded: 139
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/home_icon.png
+Original filename: home_icon.png
+Saved as: home_icon_3.png
+Path: scraped_data\images\home_icon_3.png
+Size: 736 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/2018/07/header-logo.png
+Original filename: header-logo.png
+Saved as: header-logo_5.png
+Path: scraped_data\images\header-logo_5.png
+Size: 3534 bytes
+Alt text: 
+
+Original URL: http://openweathermap.org/img/w/10n.png
+Original filename: 10n.png
+Saved as: 10n_5.png
+Path: scraped_data\images\10n_5.png
+Size: 3801 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/16550/51499803681_ebbe5471c5_k-1920x1280.jpg
+Original filename: 51499803681_ebbe5471c5_k-1920x1280.jpg
+Saved as: 51499803681_ebbe5471c5_k-1920x1280.jpg
+Path: scraped_data\images\51499803681_ebbe5471c5_k-1920x1280.jpg
+Size: 928322 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/traingle.png
+Original filename: traingle.png
+Saved as: traingle_3.png
+Path: scraped_data\images\traingle_3.png
+Size: 1254 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/top-left-shape.png
+Original filename: top-left-shape.png
+Saved as: top-left-shape_3.png
+Path: scraped_data\images\top-left-shape_3.png
+Size: 3586 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/top-right-shape.png
+Original filename: top-right-shape.png
+Saved as: top-right-shape_3.png
+Path: scraped_data\images\top-right-shape_3.png
+Size: 4273 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/bottom-left-shape.png
+Original filename: bottom-left-shape.png
+Saved as: bottom-left-shape_3.png
+Path: scraped_data\images\bottom-left-shape_3.png
+Size: 3668 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/bottom-right-shape.png
+Original filename: bottom-right-shape.png
+Saved as: bottom-right-shape_3.png
+Path: scraped_data\images\bottom-right-shape_3.png
+Size: 4164 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/2018/07/footer-logo.png
+Original filename: footer-logo.png
+Saved as: footer-logo_3.png
+Path: scraped_data\images\footer-logo_3.png
+Size: 2587 bytes
+Alt text: Rwanda-logo
+

@@ -8,7 +8,7 @@ import { useMobile } from "@/hooks/use-mobile"
 const WhatsAppButton = () => {
   const [isVisible, setIsVisible] = useState(false)
   const isMobile = useMobile()
-  const whatsappNumber = "+250788123456"
+  const whatsappNumber = "+250788460359"
   const whatsappMessage = "Hello, I'm interested in booking a service with Hano Tours."
 
   useEffect(() => {

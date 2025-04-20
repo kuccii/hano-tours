@@ -4,8 +4,11 @@ import { Button } from "@/components/ui/button"
 import { AnimatedElement } from "./AnimatedElement"
 import { useScroll, useTransform, motion } from "framer-motion"
 import { useRef } from "react"
+import Image from "next/image"
+import { useRouter } from "next/navigation"
 
 export default function Hero() {
+  const router = useRouter()
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -13,31 +16,49 @@ export default function Hero() {
   })
 
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"])
+  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
   return (
     <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Parallax */}
       <div className="absolute inset-0 z-0">
-        {/* Main gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-white/10 z-10" />
+        {/* Main gradient overlay - reduced opacity */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-transparent z-10" />
         
-        {/* Subtle vignette effect */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.4)_100%)] z-20" />
+        {/* Subtle vignette effect - reduced opacity */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.2)_100%)] z-20" />
         
-        {/* Texture overlay */}
-        <div className="absolute inset-0 dots-pattern opacity-20 mix-blend-soft-light z-30" />
+        {/* Texture overlay - reduced opacity */}
+        <div className="absolute inset-0 dots-pattern opacity-10 mix-blend-soft-light z-30" />
         
-        {/* Parallax Image */}
+        {/* Parallax Image with Fade */}
         <motion.div
           className="absolute inset-0 w-full h-[120%] -top-[10%]"
-          style={{ y: backgroundY }}
+          style={{ 
+            y: backgroundY,
+            opacity
+          }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 0.8 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <img
-            src="https://steptodown.com/istock-downloader/images/steptodown.com757086.jpg"
-            alt="Hero Background"
-            className="object-cover w-full h-full"
+          <Image
+            src="/images/steptodown.com757086.jpg"
+            alt="Rwanda Convention Center and Radisson Hotel"
+            fill
+            priority
+            className="object-cover"
+            quality={100}
           />
         </motion.div>
+
+        {/* Background Color Fade - more transparent */}
+        <motion.div
+          className="absolute inset-0 bg-background/50"
+          style={{
+            opacity: useTransform(scrollYProgress, [0, 0.5], [0, 0.8])
+          }}
+        />
       </div>
 
       {/* Decorative Elements with adjusted opacity */}
@@ -78,14 +99,16 @@ export default function Hero() {
             <Button
               size="lg"
               variant="accent"
-              className="w-full sm:w-auto text-lg font-semibold px-8 py-6 hover:scale-105 transition-transform backdrop-blur-sm bg-accent/90"
+              className="w-full sm:w-auto text-lg font-semibold px-8 py-6 hover:scale-105 transition-transform backdrop-blur-sm bg-accent/90 text-primary"
+              onClick={() => router.push('/tours')}
             >
               Book Your Tour
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="w-full sm:w-auto text-lg font-semibold px-8 py-6 border-white text-black hover:bg-black/10 hover:text-white hover:scale-105 transition-transform backdrop-blur-sm"
+              className="w-full sm:w-auto text-lg font-semibold px-8 py-6 bg-white/10 border-white text-white hover:bg-white/20 hover:border-white/80 transition-all duration-300 backdrop-blur-sm"
+              onClick={() => router.push('/about')}
             >
               Learn More
             </Button>

@@ -1,0 +1,184 @@
+Total images downloaded: 165
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/home_icon.png
+Original filename: home_icon.png
+Saved as: home_icon_4.png
+Path: scraped_data\images\home_icon_4.png
+Size: 736 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/2018/07/header-logo.png
+Original filename: header-logo.png
+Saved as: header-logo_6.png
+Path: scraped_data\images\header-logo_6.png
+Size: 3534 bytes
+Alt text: 
+
+Original URL: http://openweathermap.org/img/w/10n.png
+Original filename: 10n.png
+Saved as: 10n_6.png
+Path: scraped_data\images\10n_6.png
+Size: 3801 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/2018/07/header-logo.png
+Original filename: header-logo.png
+Saved as: header-logo_7.png
+Path: scraped_data\images\header-logo_7.png
+Size: 3534 bytes
+Alt text: 
+
+Original URL: http://openweathermap.org/img/w/10n.png
+Original filename: 10n.png
+Saved as: 10n_7.png
+Path: scraped_data\images\10n_7.png
+Size: 3801 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1179/Visit-Rwanda_-Nyungwe-Tea-Plantations-1920x1280.jpg
+Original filename: Visit-Rwanda_-Nyungwe-Tea-Plantations-1920x1280.jpg
+Saved as: Visit-Rwanda_-Nyungwe-Tea-Plantations-1920x1280.jpg
+Path: scraped_data\images\Visit-Rwanda_-Nyungwe-Tea-Plantations-1920x1280.jpg
+Size: 298563 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/traingle.png
+Original filename: traingle.png
+Saved as: traingle_4.png
+Path: scraped_data\images\traingle_4.png
+Size: 1254 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/top-left-shape.png
+Original filename: top-left-shape.png
+Saved as: top-left-shape_4.png
+Path: scraped_data\images\top-left-shape_4.png
+Size: 3586 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/top-right-shape.png
+Original filename: top-right-shape.png
+Saved as: top-right-shape_4.png
+Path: scraped_data\images\top-right-shape_4.png
+Size: 4273 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/bottom-left-shape.png
+Original filename: bottom-left-shape.png
+Saved as: bottom-left-shape_4.png
+Path: scraped_data\images\bottom-left-shape_4.png
+Size: 3668 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/themes/rwanda/assets/images/bottom-right-shape.png
+Original filename: bottom-right-shape.png
+Saved as: bottom-right-shape_4.png
+Path: scraped_data\images\bottom-right-shape_4.png
+Size: 4164 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2063/A330-Rwandair-MSN1741-take-off-006-1650x1097.jpg
+Original filename: A330-Rwandair-MSN1741-take-off-006-1650x1097.jpg
+Saved as: A330-Rwandair-MSN1741-take-off-006-1650x1097.jpg
+Path: scraped_data\images\A330-Rwandair-MSN1741-take-off-006-1650x1097.jpg
+Size: 144639 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2954/Visit-Rwanda-Tea-Road-1280x720.jpg
+Original filename: Visit-Rwanda-Tea-Road-1280x720.jpg
+Saved as: Visit-Rwanda-Tea-Road-1280x720.jpg
+Path: scraped_data\images\Visit-Rwanda-Tea-Road-1280x720.jpg
+Size: 280936 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2066/Wheelchair-1280x852.jpg
+Original filename: Wheelchair-1280x852.jpg
+Saved as: Wheelchair-1280x852.jpg
+Path: scraped_data\images\Wheelchair-1280x852.jpg
+Size: 502028 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2095/Antenna-1650x1100.jpg
+Original filename: Antenna-1650x1100.jpg
+Saved as: Antenna-1650x1100.jpg
+Path: scraped_data\images\Antenna-1650x1100.jpg
+Size: 105675 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1819/Rwanda-Flag-e1533481310892-700x700.jpg
+Original filename: Rwanda-Flag-e1533481310892-700x700.jpg
+Saved as: Rwanda-Flag-e1533481310892-700x700_1.jpg
+Path: scraped_data\images\Rwanda-Flag-e1533481310892-700x700_1.jpg
+Size: 25380 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2067/Flagpole-700x525.jpg
+Original filename: Flagpole-700x525.jpg
+Saved as: Flagpole-700x525.jpg
+Path: scraped_data\images\Flagpole-700x525.jpg
+Size: 28295 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2353/Coins-in-Rwanda-700x290.png
+Original filename: Coins-in-Rwanda-700x290.png
+Saved as: Coins-in-Rwanda-700x290.png
+Path: scraped_data\images\Coins-in-Rwanda-700x290.png
+Size: 348116 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2351/Plastic-Ban-700x467.jpg
+Original filename: Plastic-Ban-700x467.jpg
+Saved as: Plastic-Ban-700x467.jpg
+Path: scraped_data\images\Plastic-Ban-700x467.jpg
+Size: 59617 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2072/Drone-700x394.jpeg
+Original filename: Drone-700x394.jpeg
+Saved as: Drone-700x394.jpeg
+Path: scraped_data\images\Drone-700x394.jpeg
+Size: 17239 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2073/Medical-700x467.jpg
+Original filename: Medical-700x467.jpg
+Saved as: Medical-700x467.jpg
+Path: scraped_data\images\Medical-700x467.jpg
+Size: 27213 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1625/Visit-Rwanda-NH_OO_Accommodation_Backpack_Detail_6712_MASTER-e1533413385276-700x700.jpg
+Original filename: Visit-Rwanda-NH_OO_Accommodation_Backpack_Detail_6712_MASTER-e1533413385276-700x700.jpg
+Saved as: Visit-Rwanda-NH_OO_Accommodation_Backpack_Detail_6712_MASTER-e1533413385276-700x700.jpg
+Path: scraped_data\images\Visit-Rwanda-NH_OO_Accommodation_Backpack_Detail_6712_MASTER-e1533413385276-700x700.jpg
+Size: 71085 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2075/Plug-700x467.jpg
+Original filename: Plug-700x467.jpg
+Saved as: Plug-700x467.jpg
+Path: scraped_data\images\Plug-700x467.jpg
+Size: 33879 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/2076/Rainbow-1280x853.jpg
+Original filename: Rainbow-1280x853.jpg
+Saved as: Rainbow-1280x853.jpg
+Path: scraped_data\images\Rainbow-1280x853.jpg
+Size: 31952 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/fly-images/1389/Visit-Rwanda-NH_OO_Drone_Resort_4857_MASTER-1280x852.jpg
+Original filename: Visit-Rwanda-NH_OO_Drone_Resort_4857_MASTER-1280x852.jpg
+Saved as: Visit-Rwanda-NH_OO_Drone_Resort_4857_MASTER-1280x852.jpg
+Path: scraped_data\images\Visit-Rwanda-NH_OO_Drone_Resort_4857_MASTER-1280x852.jpg
+Size: 506076 bytes
+Alt text: 
+
+Original URL: https://visitrwanda.com/wp-content/uploads/2018/07/footer-logo.png
+Original filename: footer-logo.png
+Saved as: footer-logo_4.png
+Path: scraped_data\images\footer-logo_4.png
+Size: 2587 bytes
+Alt text: Rwanda-logo
+
