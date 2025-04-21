@@ -5,11 +5,11 @@ export const tours: Tour[] = [
     id: 'national-memorial',
     title: 'Rwanda National Memorial',
     description: 'A moving journey through Rwanda\'s history at the Kigali Genocide Memorial and other significant memorial sites, highlighting the country\'s path to reconciliation and hope.',
-    image: '/images/tours/Visit-Rwanda-Kibeho-Church-Credit-Elena-Hermosa-700x467_21.jpg',
+    image: '/images/tours/Memorial1.jpg',
     gallery: [
-      '/images/tours/Visit-Rwanda-Kibeho-Church-Credit-Elena-Hermosa-700x467_21.jpg',
-      '/images/tours/Visit-Rwanda-Kings-Palace-Nyanza-Front-1-700x467_22.jpg',
-      '/images/tours/Visit-Rwanda-Huye-Town-700x467_21.jpg'
+      '/images/tours/Memorial1.jpg',
+      '/images/tours/Memorial2.jpg',
+      '/images/tours/Memorial3.jpg'
     ],
     videos: [],
     view360: [],
@@ -75,14 +75,14 @@ export const tours: Tour[] = [
     featured: true
   },
   {
-    id: 'kigali-city-tour',
+    id: 'kigali-city',
     title: 'Kigali City Tour',
     description: 'Discover the vibrant capital of Rwanda, known for its cleanliness, safety, and modern African charm. Experience local culture, arts, and cuisine while exploring the city\'s highlights.',
-    image: '/images/tours/Visit-Rwanda-Huye-Town-700x467_21.jpg',
+    image: '/images/tours/City-centre-of-Kigali-Rwanda-1200x750.jpg',
     gallery: [
-      '/images/tours/Visit-Rwanda-Huye-Town-700x467_21.jpg',
-      '/images/tours/Visit-Rwanda-Kings-Palace-Nyanza-Front-1-700x467_22.jpg',
-      '/images/tours/Visit-Rwanda-Kibeho-Church-Credit-Elena-Hermosa-700x467_21.jpg'
+      '/images/tours/Kigali.jpg',
+      '/images/tours/Visit-Rwanda_-Kigali-Skyline-to-CBD-700x467_24.jpg',
+      '/images/tours/City-centre-of-Kigali-Rwanda-1200x750.jpg'
     ],
     videos: [],
     view360: [],
