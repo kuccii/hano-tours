@@ -24,7 +24,13 @@ export const metadata: Metadata = {
   title: "Hano Tours | Your Trusted Travel & Transportation Partner",
   description:
     "Premium travel and transportation services in Rwanda. Car rentals, guided tours, luxury wedding cars, and airport transfers.",
-  generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({
