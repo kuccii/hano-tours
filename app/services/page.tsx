@@ -21,6 +21,7 @@ const services = [
       "24/7 customer support",
       "Complimentary water and Wi-Fi",
     ],
+    image: "https://gsat.jp/wp-content/uploads/2022/09/2018-Toyota-Land-Cruiser-Prado-TXL-Package-4WD-Black-Right-Hand-01-825x483.jpg"
   },
   {
     id: "tours",
@@ -36,6 +37,7 @@ const services = [
       "Meals and refreshments",
       "Photo opportunities",
     ],
+    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "wedding-cars",
@@ -51,6 +53,7 @@ const services = [
       "Photography stops",
       "Air-conditioned comfort",
     ],
+    image: "https://5.imimg.com/data5/SELLER/Default/2025/3/492620310/IJ/OD/XG/40152041/white-toyota-fortuner-wedding-car-rental-500x500.jpeg"
   },
   {
     id: "airport-transfers",
@@ -66,6 +69,7 @@ const services = [
       "No waiting time",
       "Fixed pricing",
     ],
+    image: "https://images.unsplash.com/photo-1556388158-158ea5ccacbd?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "corporate",
@@ -81,6 +85,7 @@ const services = [
       "Multiple vehicle types",
       "Customized branding options",
     ],
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
   },
 ]
 
@@ -141,7 +146,7 @@ export default function ServicesPage() {
                   {/* Image */}
                   <div className="lg:w-[400px] h-[300px] lg:h-auto relative rounded-xl overflow-hidden">
                     <Image
-                      src={`/images/services/${service.id}.jpg`}
+                      src={service.image}
                       alt={service.title}
                       fill
                       className="object-cover"
