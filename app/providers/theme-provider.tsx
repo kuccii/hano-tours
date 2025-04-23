@@ -8,8 +8,9 @@ export function ThemeProvider({ children, ...props }: { children: React.ReactNod
     <NextThemesProvider
       attribute="class"
       defaultTheme="system"
-      enableSystem
-      disableTransitionOnChange
+      enableSystem={true}
+      disableTransitionOnChange={false}
+      storageKey="hano-tours-theme"
       {...props}
     >
       {children}
