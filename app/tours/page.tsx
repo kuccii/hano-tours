@@ -16,24 +16,28 @@ import { useRouter } from "next/navigation"
 import { tours } from "./data"
 import { Tour } from "./types"
 
+const removedTourIds = ['gorilla-tracking', 'national-memorial', 'primate-tracking', 'akagera-safari', 'birdwatching', 'cultural-heritage']
+
 export default function ToursPage() {
   const router = useRouter()
   const [searchQuery, setSearchQuery] = useState("")
-  const [durationFilter, setDurationFilter] = useState("all")
-  const [difficultyFilter, setDifficultyFilter] = useState("all")
+  const [durationFilter, setDurationFilter] = useState("")
+  const [difficultyFilter, setDifficultyFilter] = useState("")
   const [selectedTour, setSelectedTour] = useState<Tour | null>(null)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
   const [isFullScreen, setIsFullScreen] = useState(true)
   const [activeTab, setActiveTab] = useState("gallery")
   const [selectedVideo, setSelectedVideo] = useState<number | null>(null)
+  const [isAutoPlaying, setIsAutoPlaying] = useState(false)
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0)
+  const [isVideoAutoPlaying, setIsVideoAutoPlaying] = useState(false)
   
-  const filteredTours = tours.filter((tour) => {
-    const matchesSearch = tour.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      tour.description.toLowerCase().includes(searchQuery.toLowerCase())
-    const matchesDuration = durationFilter === "all" || tour.duration.toLowerCase().includes(durationFilter)
-    const matchesDifficulty = difficultyFilter === "all" || tour.difficulty.toLowerCase() === difficultyFilter
-    return matchesSearch && matchesDuration && matchesDifficulty
-  })
+  const filteredTours = tours.filter(tour => 
+    !removedTourIds.includes(tour.id) &&
+    tour.title.toLowerCase().includes(searchQuery.toLowerCase()) &&
+    (durationFilter === "" || tour.duration === durationFilter) &&
+    (difficultyFilter === "" || tour.difficulty === difficultyFilter)
+  )
 
   const nextImage = useCallback(() => {
     if (!selectedTour) return

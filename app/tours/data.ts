@@ -95,7 +95,7 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'Kigali',
+      name: 'KN2st 56 AVE',
       description: 'Rwanda\'s clean, green and vibrant capital city',
       coordinates: {
         latitude: -1.9437,
@@ -462,14 +462,14 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'Multiple Locations',
+      name: 'KN2st 56 AVE',
       description: 'Explore Rwanda\'s famous coffee and tea plantations',
       coordinates: {
         latitude: -1.9403,
         longitude: 29.8739
       }
     },
-    groupSize: 'Max 10 people',
+    groupSize: 'Max 12 people',
     difficulty: 'Easy',
     price: 300,
     included: [
@@ -522,14 +522,14 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'Nyungwe National Park',
+      name: 'KN2st 56 AVE',
       description: 'An ancient rainforest with incredible biodiversity',
       coordinates: {
         latitude: -2.5000,
         longitude: 29.2500
       }
     },
-    groupSize: 'Max 8 people',
+    groupSize: 'Max 12 people',
     difficulty: 'Moderate',
     price: 500,
     included: [
@@ -581,14 +581,14 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'Lake Kivu',
+      name: 'KN2st 56 AVE',
       description: 'One of Africa\'s Great Lakes, offering beautiful beaches and water sports',
       coordinates: {
         latitude: -2.0000,
         longitude: 29.0000
       }
     },
-    groupSize: 'Max 8 people',
+    groupSize: 'Max 12 people',
     difficulty: 'Moderate',
     price: 400,
     included: [
@@ -640,14 +640,14 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'Musanze',
+      name: 'KN2st 56 AVE',
       description: 'A hassle-free and buzzing city with plenty of choice for activities',
       coordinates: {
         latitude: -1.5000,
         longitude: 29.6333
       }
     },
-    groupSize: 'Max 6 people',
+    groupSize: 'Max 12 people',
     difficulty: 'Moderate',
     price: 300,
     included: [
@@ -700,14 +700,14 @@ export const tours: Tour[] = [
     ],
     duration: '2 Days',
     location: {
-      name: 'Volcanoes National Park',
+      name: 'KN2st 56 AVE',
       description: 'Home to endangered mountain gorillas and stunning volcanic landscapes',
       coordinates: {
         latitude: -1.4833,
         longitude: 29.5333
       }
     },
-    groupSize: 'Max 8 people',
+    groupSize: 'Max 12 people',
     difficulty: 'Challenging',
     price: 2000,
     included: [

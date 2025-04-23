@@ -8,9 +8,13 @@ import { AnimatedElement } from "@/components/AnimatedElement"
 import { useRouter } from "next/navigation"
 import { tours } from "@/app/tours/data"
 
+const featuredTours = tours.filter(tour => 
+  tour.featured && 
+  !['gorilla-tracking', 'national-memorial', 'primate-tracking', 'akagera-safari', 'birdwatching', 'cultural-heritage'].includes(tour.id)
+)
+
 export default function FeaturedTours() {
   const router = useRouter()
-  const featuredTours = tours.filter(tour => tour.featured).slice(0, 3)
 
   return (
     <section className="py-20 bg-gray-50/50 dark:bg-gray-950/50">
@@ -23,7 +27,7 @@ export default function FeaturedTours() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {featuredTours.map((tour, index) => (
             <AnimatedElement
-              key={tour.id}
+              key={`featured-tour-${tour.id}`}
               animationType="cardReveal"
               delay={index * 0.1}
             >
