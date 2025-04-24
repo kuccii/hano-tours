@@ -27,7 +27,7 @@ export default function Hero() {
         
         {/* Parallax Image with Fade */}
         <motion.div
-          className="absolute inset-0 w-full h-[120%] -top-[10%]"
+          className="absolute inset-0 w-full h-[140%] -top-[65%] md:-top-[60%] overflow-hidden"
           style={{ 
             y: backgroundY,
             opacity
@@ -36,14 +36,26 @@ export default function Hero() {
           animate={{ opacity: 0.9 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <Image
-            src="/images/steptodown.com757086.jpg"
-            alt="Rwanda Convention Center and Radisson Hotel"
-            fill
-            priority
-            className="object-cover"
-            quality={100}
-          />
+          <div className="absolute inset-0 w-[200%] md:w-full">
+            {/* Mobile Image */}
+            <Image
+              src="/images/convention.png"
+              alt="Rwanda Convention Center"
+              fill
+              priority
+              className="object-cover translate-x-[-25%] md:translate-x-0 md:hidden"
+              quality={100}
+            />
+            {/* Desktop Image */}
+            <Image
+              src="/images/steptodown.com757086.jpg"
+              alt="Rwanda Convention Center"
+              fill
+              priority
+              className="object-cover hidden md:block"
+              quality={100}
+            />
+          </div>
         </motion.div>
 
         {/* Background Color Fade */}
@@ -114,20 +126,32 @@ export default function Hero() {
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
         <AnimatedElement animationType="fadeInUp" delay={0.8}>
           <div className="animate-bounce">
-            <div className="w-1 h-16 rounded-full bg-white/30" />
+            <div className="w-1 h-8 rounded-full bg-white/30" />
           </div>
         </AnimatedElement>
       </div>
 
       {/* Modern Static Wave Shape Divider */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden z-30">
+        {/* Mobile Wave (hidden on desktop) */}
         <svg
-          className="relative block w-full h-[150px]"
-          viewBox="0 0 1440 140"
+          className="relative block w-full h-[150px] md:hidden"
+          viewBox="0 0 1240 120"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          {/* Main wave */}
+          <path
+            d="M0 96L48 85.3C96 75 192 53 288 42.7C384 32 480 32 576 42.7C672 53 768 75 864 80C960 85 1056 75 1152 69.3C1248 64 1344 64 1392 64H1440V140H0V96Z"
+            className="fill-background"
+          />
+        </svg>
+        {/* Desktop Wave (hidden on mobile) */}
+        <svg
+          className="relative hidden md:block w-full h-[10px]"
+          viewBox="0 0 1440 120"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <path
             d="M0 96L48 85.3C96 75 192 53 288 42.7C384 32 480 32 576 42.7C672 53 768 75 864 80C960 85 1056 75 1152 69.3C1248 64 1344 64 1392 64H1440V140H0V96Z"
             className="fill-background"
