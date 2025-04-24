@@ -22,7 +22,7 @@ export const tours: Tour[] = [
     ],
     duration: '2 Days',
     location: {
-      name: 'Multiple Locations',
+      name: 'KN2st 56AVE',
       description: 'Various memorial sites across Rwanda, centered in Kigali',
       coordinates: {
         latitude: -1.9437,
@@ -95,7 +95,7 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'KN2st 56 AVE',
+      name: 'KN2st 56AVE',
       description: 'Rwanda\'s clean, green and vibrant capital city',
       coordinates: {
         latitude: -1.9437,
@@ -462,7 +462,7 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'KN2st 56 AVE',
+      name: 'KN2st 56AVE',
       description: 'Explore Rwanda\'s famous coffee and tea plantations',
       coordinates: {
         latitude: -1.9403,
@@ -522,7 +522,7 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'KN2st 56 AVE',
+      name: 'KN2st 56AVE',
       description: 'An ancient rainforest with incredible biodiversity',
       coordinates: {
         latitude: -2.5000,
@@ -581,7 +581,7 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'KN2st 56 AVE',
+      name: 'KN2st 56AVE',
       description: 'One of Africa\'s Great Lakes, offering beautiful beaches and water sports',
       coordinates: {
         latitude: -2.0000,
@@ -640,7 +640,7 @@ export const tours: Tour[] = [
     ],
     duration: '1 Day',
     location: {
-      name: 'KN2st 56 AVE',
+      name: 'KN2st 56AVE',
       description: 'A hassle-free and buzzing city with plenty of choice for activities',
       coordinates: {
         latitude: -1.5000,
@@ -678,79 +678,5 @@ export const tours: Tour[] = [
     category: 'Adventure',
     bestTimeToVisit: 'Year-round',
     featured: false
-  },
-  {
-    id: 'volcanoes-national-park',
-    title: 'Volcanoes National Park',
-    description: 'Explore the majestic Virunga Mountains and diverse ecosystems of Volcanoes National Park, home to mountain gorillas and golden monkeys.',
-    image: '/images/tours/Visit-Rwanda-Bisate-11-700x467_22.jpg',
-    gallery: [
-      '/images/tours/Visit-Rwanda-Bisate-11-700x467_22.jpg',
-      '/images/tours/Visit-Rwanda_-Volcanoes-National-Park-Silverback-in-Bamboo-1-700x467_23.jpg',
-      '/images/tours/Visit-Rwanda-Musanze-Drone-Sunset-700x525_22.jpg'
-    ],
-    videos: [],
-    view360: [],
-    highlights: [
-      'Hiking trails with stunning views',
-      'Diverse flora and fauna',
-      'Mountain climbing opportunities',
-      'Cultural encounters with local communities',
-      'Golden monkey tracking'
-    ],
-    duration: '2 Days',
-    location: {
-      name: 'KN2st 56 AVE',
-      description: 'Home to endangered mountain gorillas and stunning volcanic landscapes',
-      coordinates: {
-        latitude: -1.4833,
-        longitude: 29.5333
-      }
-    },
-    groupSize: 'Max 12 people',
-    difficulty: 'Challenging',
-    price: 2000,
-    included: [
-      'Professional guide',
-      'Park entrance fees',
-      'Hiking permits',
-      'Meals (breakfast, lunch, dinner)',
-      'Water and snacks'
-    ],
-    notIncluded: [
-      'Accommodation',
-      'Transportation',
-      'Personal expenses',
-      'Tips',
-      'Travel insurance'
-    ],
-    itinerary: [
-      {
-        day: 1,
-        title: 'Park Exploration and Hiking',
-        description: 'Explore the park\'s trails and volcanic landscapes.',
-        activities: [
-          'Morning briefing and safety orientation',
-          'Guided hiking through various trails',
-          'Flora and fauna observation',
-          'Visit to local communities',
-          'Evening relaxation'
-        ]
-      },
-      {
-        day: 2,
-        title: 'Golden Monkey Tracking',
-        description: 'Track golden monkeys and explore more park attractions.',
-        activities: [
-          'Early morning golden monkey tracking',
-          'Lunch break',
-          'Visit to twin lakes',
-          'Cultural experience'
-        ]
-      }
-    ],
-    category: 'Nature',
-    bestTimeToVisit: 'June to September (Dry Season) or December to February',
-    featured: true
   }
 ]; 
