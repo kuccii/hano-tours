@@ -256,7 +256,7 @@ export const tours: Tour[] = [
     ],
     category: 'Wildlife',
     bestTimeToVisit: 'June to September (Dry Season)',
-    featured: true
+    featured: false
   },
   {
     id: 'akagera-safari',
@@ -315,7 +315,7 @@ export const tours: Tour[] = [
     ],
     category: 'Wildlife',
     bestTimeToVisit: 'June to September (Dry Season)',
-    featured: true
+    featured: false
   },
   {
     id: 'birdwatching',
@@ -433,7 +433,7 @@ export const tours: Tour[] = [
     ],
     category: 'Cultural',
     bestTimeToVisit: 'Year-round',
-    featured: true
+    featured: false
   },
   {
     id: 'coffee-tea',
@@ -491,7 +491,7 @@ export const tours: Tour[] = [
     ],
     category: 'Cultural',
     bestTimeToVisit: 'July to October (Harvest Season)',
-    featured: false
+    featured: true
   },
   // Adventure Experiences
   {
