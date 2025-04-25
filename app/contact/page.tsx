@@ -66,7 +66,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-primary dark:text-white mb-1">Our Location</h3>
-                    <p className="text-muted-foreground dark:text-gray-400">KN4 AVE, PLOT 12 N970, Kigali, Rwanda</p>
+                    <p className="text-muted-foreground dark:text-gray-400">KN2st 56AVE, Kigali, Rwanda</p>
                   </div>
                 </div>
 

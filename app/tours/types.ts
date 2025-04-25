@@ -42,7 +42,6 @@ export interface Tour {
   highlights: string[]
   duration: string
   location: TourLocation
-  groupSize: string
   difficulty: 'Easy' | 'Moderate' | 'Challenging'
   price: number
   included: string[]

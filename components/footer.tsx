@@ -68,7 +68,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-accent mr-3 mt-0.5" />
-                <span className="text-white/80 dark:text-gray-300">KN4 AVE, PLOT 12 N970, Kigali, Rwanda</span>
+                <span className="text-white/80 dark:text-gray-300">KN2st 56AVE, Kigali, Rwanda</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-accent mr-3" />

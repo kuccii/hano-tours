@@ -29,7 +29,6 @@ export const tours: Tour[] = [
         longitude: 30.0594
       }
     },
-    groupSize: 'Max 10 people',
     difficulty: 'Easy',
     price: 600,
     included: [
@@ -102,7 +101,6 @@ export const tours: Tour[] = [
         longitude: 30.0594
       }
     },
-    groupSize: 'Max 12 people',
     difficulty: 'Easy',
     price: 250,
     included: [
@@ -171,7 +169,6 @@ export const tours: Tour[] = [
         longitude: 29.5361
       }
     },
-    groupSize: 'Max 8 people',
     difficulty: 'Challenging',
     price: 1500,
     included: [
@@ -230,7 +227,6 @@ export const tours: Tour[] = [
         longitude: 29.8739
       }
     },
-    groupSize: 'Max 6 people',
     difficulty: 'Moderate',
     price: 1000,
     included: [
@@ -289,7 +285,6 @@ export const tours: Tour[] = [
         longitude: 30.7500
       }
     },
-    groupSize: 'Max 6 people',
     difficulty: 'Easy',
     price: 800,
     included: [
@@ -349,7 +344,6 @@ export const tours: Tour[] = [
         longitude: 29.8739
       }
     },
-    groupSize: 'Max 4 people',
     difficulty: 'Easy',
     price: 600,
     included: [
@@ -410,7 +404,6 @@ export const tours: Tour[] = [
         longitude: 29.8739
       }
     },
-    groupSize: 'Max 12 people',
     difficulty: 'Easy',
     price: 400,
     included: [
@@ -469,7 +462,6 @@ export const tours: Tour[] = [
         longitude: 29.8739
       }
     },
-    groupSize: 'Max 12 people',
     difficulty: 'Easy',
     price: 300,
     included: [
@@ -529,7 +521,6 @@ export const tours: Tour[] = [
         longitude: 29.2500
       }
     },
-    groupSize: 'Max 12 people',
     difficulty: 'Moderate',
     price: 500,
     included: [
@@ -588,7 +579,6 @@ export const tours: Tour[] = [
         longitude: 29.0000
       }
     },
-    groupSize: 'Max 12 people',
     difficulty: 'Moderate',
     price: 400,
     included: [
@@ -647,7 +637,6 @@ export const tours: Tour[] = [
         longitude: 29.6333
       }
     },
-    groupSize: 'Max 12 people',
     difficulty: 'Moderate',
     price: 300,
     included: [
