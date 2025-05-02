@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
@@ -66,12 +67,14 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="flex items-center">
-          <span className={cn(
-            "text-2xl font-playfair font-bold",
-            isScrolled || !isHomePage ? "text-primary dark:text-white" : "text-white"
-          )}>
-            Hano<span className="text-accent">Tours</span>
-          </span>
+          <Image 
+            src="/images/HanoTlogo.png" 
+            alt="Hano Tours Logo" 
+            width={120}
+            height={48}
+            className="h-12 w-auto" 
+            priority
+          />
         </Link>
 
         {/* Desktop Navigation */}
