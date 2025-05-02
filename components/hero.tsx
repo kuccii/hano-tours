@@ -135,26 +135,28 @@ export default function Hero() {
       <div className="absolute bottom-0 left-0 w-full overflow-hidden z-30">
         {/* Mobile Wave (hidden on desktop) */}
         <svg
-          className="relative block w-full h-[150px] md:hidden"
+          className="relative block w-full h-[40px] md:hidden"
           viewBox="0 0 1240 120"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
             d="M0 96L48 85.3C96 75 192 53 288 42.7C384 32 480 32 576 42.7C672 53 768 75 864 80C960 85 1056 75 1152 69.3C1248 64 1344 64 1392 64H1440V140H0V96Z"
-            className="fill-background"
+            fill="white"
+            className="dark:fill-gray-950"
           />
         </svg>
         {/* Desktop Wave (hidden on mobile) */}
         <svg
-          className="relative hidden md:block w-full h-[10px]"
+          className="relative hidden md:block w-full h-[50px]"
           viewBox="0 0 1440 120"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
             d="M0 96L48 85.3C96 75 192 53 288 42.7C384 32 480 32 576 42.7C672 53 768 75 864 80C960 85 1056 75 1152 69.3C1248 64 1344 64 1392 64H1440V140H0V96Z"
-            className="fill-background"
+            fill="white"
+            className="dark:fill-gray-950"
           />
         </svg>
       </div>
