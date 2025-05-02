@@ -70,9 +70,9 @@ const Header = () => {
           <Image 
             src="/images/HanoTlogo.png" 
             alt="Hano Tours Logo" 
-            width={120}
-            height={48}
-            className="h-12 w-auto" 
+            width={180}
+            height={72}
+            className="h-16 w-auto" 
             priority
           />
         </Link>
