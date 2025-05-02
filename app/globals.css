@@ -26,6 +26,10 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 221.2 83.2% 53.3%;
     --radius: 0.5rem;
+    
+    /* RGB versions for rgba() usage */
+    --primary-rgb: 37, 99, 235;
+    --accent-rgb: 245, 158, 11;
   }
 
   .dark {
@@ -48,6 +52,10 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
+    
+    /* RGB versions for rgba() usage */
+    --primary-rgb: 59, 130, 246;
+    --accent-rgb: 245, 158, 11;
   }
 }
 
@@ -615,8 +623,9 @@
 }
 
 .animate-gradient-shift {
-  background: hsl(222 47% 11%);
-  animation: none;
+  background: linear-gradient(45deg, hsl(var(--primary)), hsl(var(--accent)));
+  background-size: 200% 200%;
+  animation: gradient-shift 15s ease infinite;
 }
 
 .animate-ripple {
